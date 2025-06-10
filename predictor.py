@@ -1,7 +1,6 @@
 # predictor.py
-
-from datetime import datetime
 from api_helpers import get_team_data
+from datetime import datetime
 from openai_helper import extract_match_details
 
 def predict_match_enhanced(input_text):
