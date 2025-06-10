@@ -13,7 +13,7 @@ def get_team_data(team_name, api_key):
         return None
 
     team_id = response['response'][0]['team']['id']
-    stats_url = f"https://v3.football.api-sports.io/teams/statistics" 
+    stats_url = f"https://www.forebet.com/en/football-predictions", "https://v3.football.api-sports.io/teams/statistics" 
     params = {"team": team_id, "season": "2024-2025"}
     return requests.get(stats_url, headers=headers, params=params).json()
 
