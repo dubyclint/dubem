@@ -4,7 +4,7 @@ import os
 from textblob import TextBlob
 
 def get_team_data(team_name, api_key):
-    search_url = "https://v3.football.api-sports.io/teams" 
+    search_url = "https://v3.football.api-sports.io/teams" , "https://www.forebet.com/en/football-predictions"
     params = {"name": team_name}
     headers = {"x-rapidapi-key": api_key}
 
