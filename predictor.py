@@ -60,8 +60,8 @@ def predict_match_enhanced(input_text):
     location = parsed["location"]
 
     from api_helpers import get_team_data
-    home_data = get_team_data(home_team, os.getenv("https://v3.football.api-sports.io/teams"))
-    away_data = get_team_data(away_team, os.getenv("https://v3.football.api-sports.io/teams"))
+    home_data = get_team_data(home_team, os.getenv("https://www.forebet.com/en/football-predictions"),("https://v3.football.api-sports.io/teams"))
+    away_data = get_team_data(away_team, os.getenv("https://www.forebet.com/en/football-predictions"),("https://v3.football.api-sports.io/teams"))
 
     if not home_data or not away_data:
         return {"error": "Could not find team data"}
