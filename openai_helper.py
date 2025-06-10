@@ -3,7 +3,7 @@
 import openai
 import os
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv( "8146384369:AAE-JQsC9M9ysYFhCTsUQqOlb8F3vGP4d_I")
 
 def extract_match_details(user_query):
     prompt = (
