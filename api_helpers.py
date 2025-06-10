@@ -4,7 +4,7 @@ import requests
 import os
 from textblob import TextBlob
 
-API_SPORTS_KEY = os.getenv("API_SPORTS_KEY")
+API_SPORTS_KEY = os.getenv("https://v3.football.api-sports.io/teams")
 
 def get_team_data(team_name):
     """
