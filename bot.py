@@ -4,8 +4,8 @@ import telebot
 import os
 from predictor import predict_match_enhanced
 
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
+TELEGRAM_BOT_TOKEN = os.getenv( "8146384369:AAE-JQsC9M9ysYFhCTsUQqOlb8F3vGP4d_I")
+bot = telebot.TeleBot( "8146384369:AAE-JQsC9M9ysYFhCTsUQqOlb8F3vGP4d_I")
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
