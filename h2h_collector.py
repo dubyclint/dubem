@@ -14,7 +14,7 @@ def get_last_six_matches(team_a, team_b):
     try:
         headers = {
             'x-rapidapi-host': "v1.basketball.api-sports.io",
-            'x-rapidapi-key': os.getenv("API_SPORTS_KEY")
+            'x-rapidapi-key': os.getenv("5350ef98397a7c1f987ab8fd442085e4")
         }
 
         team_a_id = search_team(team_a, headers)
