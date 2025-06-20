@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get Telegram token
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_BOT_TOKEN = os.getenv("8146384369:AAE-JQsC9M9ysYFhCTsUQqOlb8F3vGP4d_I")
 if not TELEGRAM_BOT_TOKEN:
     raise ValueError("Telegram bot token not found in .env — please add it.")
 
@@ -19,7 +19,7 @@ bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 def send_welcome(message):
     bot.reply_to(
         message,
-        "🏀⚽🎾 Welcome to Sports Match Predictor Bot!\n\n"
+        "🏀⚽🎾 Welcome to Mazi chidubem Sports Match Predictor Bot!\n\n"
         "📥 Just send me a match query like:\n"
         "- \"PSG vs Botafogo\"\n"
         "- \"Crvena Zvezda vs Partizan\"\n"
