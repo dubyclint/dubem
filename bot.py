@@ -24,7 +24,7 @@ def send_welcome(message):
 
     bot.reply_to(
         message,
-        "🏀⚽🎾 Welcome to Sports Match Predictor Bot!\n\n"
+        "🏀⚽🎾 Welcome to mazi chidubem Sports Match Predictor Bot!\n\n"
         "📥 Just send me a match query like:\n"
         "- \"PSG vs Botafogo\"\n"
         "- \"Crvena Zvezda vs Partizan\"\n"
