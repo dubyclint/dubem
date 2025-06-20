@@ -10,7 +10,7 @@ load_dotenv()
 # Get Telegram token
 TELEGRAM_BOT_TOKEN = os.getenv("8146384369:AAE-JQsC9M9ysYFhCTsUQqOlb8F3vGP4d_I")
 if not TELEGRAM_BOT_TOKEN:"8146384369:AAE-JQsC9M9ysYFhCTsUQqOlb8F3vGP4d_I"
-    raise ValueError("Telegram bot token not found in .env — please add it.")
+    raise ValueError(Telegram bot token not found in .env — please add it.)
 
 # Initialize bot
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
