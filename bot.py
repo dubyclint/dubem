@@ -9,7 +9,7 @@ bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-    bot.reply_to(message, "🏀⚽🎾 Welcome to Sports Match Predictor Bot!\n\nType any match like:\n\"Crvena Zvezda vs Partizan\"\n\"Manchester United vs Liverpool\"")
+    bot.reply_to(message, "🏀⚽🎾 Welcome to mazi duby chidubem Sports Match Predictor Bot!\n\nType any match like:\n\"Crvena Zvezda vs Partizan\"\n\"Manchester United vs Liverpool\"")
 
 @bot.message_handler(func=lambda m: True)
 def handle_message(message):
