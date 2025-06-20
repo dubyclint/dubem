@@ -5,7 +5,7 @@ import os
 from predictor import predict_sports_match
 
 # Only load token when needed
-TELEGRAM_BOT_TOKEN = os.getenv("8146384369:AAE-JQsC9M9ysYFhCTsUQqOlb8F3vGP4d_I")
+TELEGRAM_BOT_TOKEN = os.getenv("")
 
 try:
     if TELEGRAM_BOT_TOKEN:
