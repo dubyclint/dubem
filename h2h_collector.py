@@ -1,10 +1,7 @@
-# h2h_collector.py
-
 import os
 import requests
 
-# Read API key from Railway or .env
-RAPID_API_KEY = os.getenv("5350ef98397a7c1f987ab8fd442085e4")
+RAPID_API_KEY = os.getenv("API_SPORTS_KEY")
 
 def search_basketball_team(name):
     url = f"https://v1.basketball.api-sports.io/teams?search={name}"
