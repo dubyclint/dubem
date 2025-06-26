@@ -5,7 +5,7 @@ import os
 import html
 from predictor import predict_sports_match
 
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_BOT_TOKEN = os.getenv("8146384369:AAE-JQsC9M9ysYFhCTsUQqOlb8F3vGP4d_I")
 if not TELEGRAM_BOT_TOKEN:
     raise ValueError("Telegram bot token not found in environment — set TELEGRAM_BOT_TOKEN")
 
