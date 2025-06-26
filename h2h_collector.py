@@ -3,7 +3,7 @@
 import os
 import requests
 
-RAPID_API_KEY = os.getenv("API_SPORTS_KEY")
+RAPID_API_KEY = os.getenv("217e645f303fde5b1c6a322b9fe60fd0")
 
 def search_basketball_team(name):
     url = f"https://v1.basketball.api-sports.io/teams?search={name}"
